@@ -27,7 +27,7 @@ The plugin itself is ~15.6 MB (341 styles + 196 stills + two skills). It does **
 
 ```
 python     ok 3.11.1 (py -3.11)
-venv       ok C:\Users\sin\.dsh\code-animation\env
+venv       ok <home>\.dsh\code-animation\env
 playwright ok 1.64.1
 chromium   ok ms-playwright\chromium-1248\chrome-win64\chrome.exe
 ffmpeg     ok ffmpeg 9.0.2-essentials_build (gyan.dev)

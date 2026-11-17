@@ -27,7 +27,7 @@ plugin_manager set_plugin target="include:code-animation" enabled=true
 ```
 
 Or from the CLI: `dsh plugin add "<path>"`.
-The dev setup uses `link:N:/dshwork/dsh-fy-code-animation`; after editing code, run `set_plugin` again to hot-reload.
+The dev setup uses `link:/path/to/dsh-fy-code-animation`; after editing code, run `set_plugin` again to hot-reload.
 
 ## 3. Do dependencies have to travel?
 
