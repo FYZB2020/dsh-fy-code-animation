@@ -1,0 +1,84 @@
+{
+  "name": "dsh-fy-code-animation",
+  "version": "1.1.0",
+  "private": false,
+  "description": "Turn a Chinese script into a finished MP4 with code, not a video editor: 341 code-animation styles, frame-accurate HTML/Canvas rendering, one-command dependency setup. 开关一开，用代码把文案做成连贯动画视频：341 条画风库、逐帧可复现的 HTML/Canvas 渲染、依赖一条命令装齐。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "style-library",
+    "templates",
+    "scripts",
+    "docs",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "CHANGELOG.md",
+    "LICENSE.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web",
+      "immediately": true
+    },
+    "compatibility": {
+      "dsh": ">=0.2.0-rc.1 <0.3.0-0",
+      "dshReleases": {
+        "0.2.2-rc.3": "compatible"
+      }
+    }
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "test": "node tests/harness.mjs",
+    "pack:portable": "node scripts/pack.mjs",
+    "pack:offline": "node scripts/build-offline-pack.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "deepseek-harness",
+    "dshmarket",
+    "animation",
+    "code-animation",
+    "code-to-video",
+    "html-to-video",
+    "canvas",
+    "remotion",
+    "ffmpeg",
+    "playwright",
+    "video",
+    "motion-graphics",
+    "style-library",
+    "chinese"
+  ],
+  "author": {
+    "name": "FYZB2020",
+    "url": "https://github.com/FYZB2020"
+  },
+  "homepage": "https://github.com/FYZB2020/dsh-fy-code-animation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FYZB2020/dsh-fy-code-animation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FYZB2020/dsh-fy-code-animation/issues"
+  },
+  "license": "MIT"
+}

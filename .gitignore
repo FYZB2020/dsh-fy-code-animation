@@ -1,0 +1,21 @@
+# deps / build
+node_modules/
+dist/
+*.tgz
+*.zip
+
+# local runtime leftovers
+offline/
+env/
+tools/ffmpeg/
+logs/
+*.log
+.posterwright/
+.posterforge/
+
+# editor / OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp

@@ -1,0 +1,62 @@
+# Style library and previews (341 entries)
+
+The plugin ships exactly **one** style library. At runtime it lives in `~/.dsh/code-animation/style-library/` (synced there on the first `codeanim_setup` or when you flip the switch). The `style-library/` folder inside the plugin package is the source copy — never resolve paths into it from a project; always search through `codeanim_style`.
+
+## What is inside
+
+| File / folder | What it is |
+| --- | --- |
+| `风格提示词/` | 341 `.md` files — one complete prompt brief per style |
+| same folder | 196 `.jpg` reference stills, named after the matching `.md`; `show` reports `imageExists` |
+| `风格挑选.html` | Offline picker: double-click, no network. Filter by series, search, zoom stills, read prompts, tick a selection, export the list |
+| `_manifest.json` | Index of all 341 entries (id, series, title, keywords, has-still, source) |
+| `_统计.json` | Counts: `{"total":341,"withStill":196,"bySeries":{...}}` |
+| `说明.md` | Upstream usage notes and terms |
+| `第三方许可/` | Original licences and attributions per source |
+
+## Naming
+
+An id is **series letter + number**: `Z1`, `B3`, `L36`, `O88`.
+
+| Series | Count | What it covers |
+| --- | --- | --- |
+| `AG` code samples | 26 | type, particles, line & ink, light & weather, shape & paper, explainers, texture — each with a reference implementation |
+| `M` motion | 40 | how a whole clip moves, cuts and joins |
+| `K` cartoon | 38 | character and frame look |
+| `Z` Chinese | 15 | ink wash, gongbi, paper-cut, shadow puppetry, Dunhuang, … |
+| `H` layout | 12 | ready-made palette + typeface pairings |
+| `L` Lemo-Opuscar | 59 | styles from the open-source Lemo-Opuscar project, each with a full recipe |
+| `V` mg-styles-15 | 15 | motion styles from mg-styles-15 |
+| `X` code-video | 31 | styles from code-video |
+| `R` reference | 7 | code-drawn cyber/sci-fi looks learned from references |
+| `O` Oscar | 98 | 98 Best Picture winners, one look each |
+
+## Three ways to look something up
+
+```
+codeanim_style { action: "search", query: "ink paper", limit: 8 }  # keyword search, pure JS
+codeanim_style { action: "show",   id: "Z1" }                      # full prompt + has-still flag
+codeanim_style { action: "list",   series: "Z" }                   # ids per series
+codeanim_style { action: "open_picker" }                           # absolute path to the offline picker
+```
+
+The panel's **画风库** button opens the picker inside the panel (`/code-animation/picker`, stills served from `/code-animation/library/...`) instead of opening a new tab.
+
+## How much the previews help
+
+- **196 / 341 have a still**: you can judge the look before committing. `show` returns `imageExists: true`.
+- **145 / 341 have none**: text only — that is upstream reality, not a missing file. Treat them as text-only styles and judge by palette, type and camera language in the brief.
+- A still is a **style reference**, not a quality promise: the same brief drifts across models and content.
+
+## Ground rules (from the fy method)
+
+1. Read the whole brief before rendering. Titles and thumbnails are not enough.
+2. One primary style per clip. If you mix, write down which segment uses which style — and how they join — in `notes.md`.
+3. `{{ }}` inside a brief is a **slot you fill** (colour, timing, camera), not decoration.
+4. The tighter the brief (exact colours, durations, lens), the more reproducible the result across models. One-liners work too, but every run differs.
+
+## Licence
+
+- Style library and both skills: free to use and share.
+- **Not** to be repackaged as a paid course, paid skill or any paid product.
+- Entries derived from open-source projects (L / V / X) keep their original licences and attribution — see `第三方许可/`.

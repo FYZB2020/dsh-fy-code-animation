@@ -1,0 +1,2 @@
+画风库不在技能目录内：插件根 style-library/ 是唯一副本（安装后同步到 %USERPROFILE%\.dsh\code-animation\style-library）。
+用 codeanim_style 工具检索，不要按 assets/library/ 相对路径找文件。

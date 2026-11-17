@@ -1,0 +1,6 @@
+# dsh-fy-code-animation bundle layer
+# 插入一个 loader 行：node 侧注册 6 个 codeanim_* 工具与两个技能，
+# web 侧注入右下角的「动画」开关面板。
+- insert:
+    - id: code-animation
+      name: dsh-fy-code-animation
