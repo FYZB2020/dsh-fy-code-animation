@@ -1,10 +1,19 @@
 # Changelog
 
+## 1.2.1 — 2026-11-21
+
+### Changed
+- Previews are now **code, not diffusion**: every one of the 341 styles compiles to a
+  Canvas scene (`window.renderAt(t)`, deterministic per id + seed) that is captured
+  headless at 1280×720. The FLUX takes are kept only as `style-library/_alt-flux/`
+  plates for use as cut-out material, never as previews.
+- Same pipeline is mirrored into `dsh-creative-video` 1.1.0.
+
 All notable changes to `dsh-fy-code-animation` (Posterwright-style semver: 1.x stays inside DSH 0.2.x).
 
 ## 1.2.0 — 2026-11-21
 
-Every style in the library now has a reference still. The 145 entries that used to be text-only were rendered with FLUX (1280×720 JPEG) from their own prompt text, then wired into all three metadata surfaces.
+Every style in the library now has a reference still. The 145 entries that used to be text-only were rendered by code — a Canvas scene per style, drawn frame-by-frame and captured with Playwright (1280×720 JPEG); the FLUX takes were kept aside as `style-library/_alt-flux/` plates, then wired into all three metadata surfaces.
 
 ### Added
 - 145 new reference stills under `style-library/风格提示词/…`, so `withStill` is now **341/341**.
