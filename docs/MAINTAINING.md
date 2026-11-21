@@ -10,7 +10,7 @@ Everything a future operator needs. 中文速查见文末。
 | --- | --- | --- |
 | `lib/` | Plugin entry (`index.js`), 6 tools, 4 local routes, project/render/state modules | yes |
 | `skills/` | Two bundled skills: `fy-code-animation`, `code-animation-prompts` | yes |
-| `style-library/` | 341 styles, 196 still frames, `_manifest.json`, `风格挑选.html` (469 KB) | yes |
+| `style-library/` | 341 styles, 341 still frames, `_manifest.json`, `风格挑选.html` (469 KB) | yes |
 | `templates/`, `docs/`, `tests/`, `scripts/` | Starter scene, docs, tests, release driver | yes |
 
 The style library is byte-identical to `dsh-creative-video/style-library` (verified 542/542 by MD5). If you improve styles, **copy changes into both** or pick one as the source of truth.
@@ -62,7 +62,7 @@ Runs `tests/contract.mjs` + `tests/harness.mjs`, then bumps, tags, pushes. Refus
 
 ## 5. Known limits (do not "fix" by promising more)
 
-- 145 of 341 styles have no still frame — preview coverage is 196. Do not claim more.
+- All 341 styles now ship a still frame (preview coverage 341/341). Stills are style references, not a quality promise.
 - L series lacks `DEMO.md` / `paper.js` / `draw.js` / `sheet.js` / `film.js`.
 - B6 is not in the curated library; X7 is ambiguous.
 - 1080p30 costs roughly 6–8 seconds of machine time per second of video.

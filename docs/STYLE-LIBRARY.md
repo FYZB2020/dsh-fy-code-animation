@@ -44,8 +44,8 @@ The panel's **画风库** button opens the picker inside the panel (`/code-anima
 
 ## How much the previews help
 
-- **196 / 341 have a still**: you can judge the look before committing. `show` returns `imageExists: true`.
-- **145 / 341 have none**: text only — that is upstream reality, not a missing file. Treat them as text-only styles and judge by palette, type and camera language in the brief.
+- **All 341 have a still**: you can judge the look before committing. `show` returns `imageExists: true`.
+- Stills were rendered from each style's own brief with FLUX (1280×720). The brief, not the thumbnail, is the spec — judge palette, type and camera language from the text too.
 - A still is a **style reference**, not a quality promise: the same brief drifts across models and content.
 
 ## Ground rules (from the fy method)
