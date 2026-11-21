@@ -51,6 +51,14 @@ Runs `tests/contract.mjs` + `tests/harness.mjs`, then bumps, tags, pushes. Refus
 - Push token lives in **Windows Credential Manager**; never in the repo.
 - `git` uses `http.sslBackend=schannel` on this machine — the OpenSSL backend in Git 2.40 cannot verify current GitHub certificates.
 - If `github.com` resolves to `127.0.0.1`, check `C:\Windows\System32\drivers\etc\hosts` (a stale local proxy entry) before suspecting the token.
+- `github.com` is intermittently reset on this line. Keep the CONNECT proxy running and git pointed at it:
+
+  ```powershell
+  node N:\dshwork\_tools\github-proxy.cjs 8899
+  git config --global http.proxy http://127.0.0.1:8899
+  ```
+
+  If the pinned edge IPs go stale the proxy re-probes its candidate list on its own.
 
 ## 5. Known limits (do not "fix" by promising more)
 
