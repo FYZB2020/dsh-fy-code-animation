@@ -2,6 +2,19 @@
 
 All notable changes to `dsh-fy-code-animation` (Posterwright-style semver: 1.x stays inside DSH 0.2.x).
 
+## 1.2.0 — 2026-11-21
+
+Every style in the library now has a reference still. The 145 entries that used to be text-only were rendered with FLUX (1280×720 JPEG) from their own prompt text, then wired into all three metadata surfaces.
+
+### Added
+- 145 new reference stills under `style-library/风格提示词/…`, so `withStill` is now **341/341**.
+- Stills are generated per style from its own brief: the prompt builder reads the English alias in the heading, the "长什么样" line for long cards, and the whole note for short cards, then composes a 16:9 key frame. Presenter-flavoured styles (口播/字幕/主持/访谈/出镜/念白/旁白) keep a person; every other M-series style gets a neutral subject so 39 thumbs don't all become the same talking head.
+
+### Changed
+- `style-library/_manifest.json`, `style-library/_统计.json`, `style-library/风格挑选.html` and `skills/code-animation-prompts/references/catalog.json` all report 341/341.
+- Docs updated in both languages: README, STYLE-LIBRARY, CAPABILITIES, DEPENDENCIES, MAINTAINING, SKILL.md and attribution now say "every style has a still" instead of "145 are text-only".
+- `dsh-creative-video` mirrors the same library, so it received the identical 145 images and metadata.
+
 ## 1.1.0 — 2026-11-17
 
 Compatibility pass against DeepSeek Harness **0.2.2-rc.3**, plus the documentation and packaging work needed for a public release.

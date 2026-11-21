@@ -78,4 +78,4 @@ Runs `tests/contract.mjs` + `tests/harness.mjs`, then bumps, tags, pushes. Refus
 - **画风库双份**：与 `dsh-creative-video/style-library` 逐字节相同，改一边要同步另一边。
 - **绝不入库**：node_modules、dist、offline 包、vendored tools/ffmpeg、日志、.env。
 - **凭据**：Windows 凭据管理器；git 用 schannel；hosts 里别留 `127.0.0.1 github.com`。
-- **能力边界**：196/341 有静帧、L 系列缺文件、B6 未收录、1080p30 约 6–8 秒机时/秒成片、v1 无 Remotion。
+- **能力边界**：341/341 有静帧、L 系列缺文件、B6 未收录、1080p30 约 6–8 秒机时/秒成片、v1 无 Remotion。

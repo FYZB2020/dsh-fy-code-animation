@@ -7,9 +7,9 @@
   },
   "counts": {
     "styles": 341,
-    "stills": 196,
-    "files": 541,
-    "bytes": 15379019
+    "stills": 341,
+    "files": 686,
+    "bytes": 43246989
   },
   "skipped": [
     {
@@ -28,18 +28,18 @@
   "files": [
     {
       "path": "_统计.json",
-      "bytes": 164,
-      "sha256": "2136719bfbb16b2c3f1ad122b1ebf9fca215497da468786e1a604a7e9191085e"
+      "bytes": 179,
+      "sha256": "48f5511b2c66580b1d39f0133d683c1657535a575acd34f32bb7331e591d7f54"
     },
     {
       "path": "说明.md",
-      "bytes": 3147,
-      "sha256": "8478d9e0bfdc9fa12d26ad454cb2be33f3498744a815bc3c5511f8dc50959971"
+      "bytes": 3199,
+      "sha256": "4ad40ab898c529804322dc2bb12124d9145b307b4e3b0d2367ea460584a0a66a"
     },
     {
       "path": "风格挑选.html",
-      "bytes": 479921,
-      "sha256": "551c6569366596b7dad3c392f35273f8d30963bf38569c9ebf5b8548654dd324"
+      "bytes": 487747,
+      "sha256": "3778e4af22078ce5a9a1eb1881695b204778d8254a9fb473c17d0a8783f69d01"
     },
     {
       "path": "风格提示词/A-G_代码样片/A1_字雨.jpg",
@@ -307,14 +307,29 @@
       "sha256": "7d06fa480b1c0e3ed3cb2e0df5cf4fd9d5707227530d455e98fda56d6733d198"
     },
     {
+      "path": "风格提示词/H_现成版式/H10_Creative Mode.jpg",
+      "bytes": 106665,
+      "sha256": "d03059d6477038551594ee20771ab6d4f33d0f86999ed220e9e4bcbce52fa6c3"
+    },
+    {
       "path": "风格提示词/H_现成版式/H10_Creative Mode.md",
       "bytes": 203,
       "sha256": "b940fc55f995be713ca10672c04d8ac74248ba9e47f716dfce0efadac4d6c68f"
     },
     {
+      "path": "风格提示词/H_现成版式/H11_Daisy Days.jpg",
+      "bytes": 247397,
+      "sha256": "6c6d80fd1e19ef59de73a36bb3348f8a643a90eb8a2b312e7b2088eb8a020264"
+    },
+    {
       "path": "风格提示词/H_现成版式/H11_Daisy Days.md",
       "bytes": 222,
       "sha256": "1eb37a3330e3632ca92bdca3e4160fdedd1126c3a4f5e57c049004ea40d21fac"
+    },
+    {
+      "path": "风格提示词/H_现成版式/H12_Editorial Forest.jpg",
+      "bytes": 138875,
+      "sha256": "f25f0a9721e8ed8f236022341b8de176997a823a6b9916dbc46867b93eeeb3e6"
     },
     {
       "path": "风格提示词/H_现成版式/H12_Editorial Forest.md",
@@ -332,9 +347,19 @@
       "sha256": "bd3ebd66119b3e324bda4e689aa4e2c1b6cf33151488c8613cae688416aa681a"
     },
     {
+      "path": "风格提示词/H_现成版式/H2_BlockFrame.jpg",
+      "bytes": 212782,
+      "sha256": "6e3cf2e801bc0422e51783ae61ef4e0f42c8eece8187b8f4aec9daa45c05e7d8"
+    },
+    {
       "path": "风格提示词/H_现成版式/H2_BlockFrame.md",
       "bytes": 219,
       "sha256": "6f012dcf1094105a85f69e96e05705188aebadb6fc2da379a57c7480e958ef05"
+    },
+    {
+      "path": "风格提示词/H_现成版式/H3_Blue Professional.jpg",
+      "bytes": 159914,
+      "sha256": "817bf5c839ec66d055cf572133be90fbed33f02776f8d26635bf1b8e71cedc16"
     },
     {
       "path": "风格提示词/H_现成版式/H3_Blue Professional.md",
@@ -342,9 +367,19 @@
       "sha256": "dd957f36b685c7996c4b6031164323e08b1356d942c462ada207511f5bfe1273"
     },
     {
+      "path": "风格提示词/H_现成版式/H4_Bold Poster.jpg",
+      "bytes": 169305,
+      "sha256": "b349359df30d33b5ec4989ee6c3ae5661cbb93c8a8d4f74e000d1c18023ec53f"
+    },
+    {
       "path": "风格提示词/H_现成版式/H4_Bold Poster.md",
       "bytes": 226,
       "sha256": "fcdf275ba727ad58726f7fdc4eeb30a27f546e03c638e9e0e976a470e8f56dc6"
+    },
+    {
+      "path": "风格提示词/H_现成版式/H5_Broadside.jpg",
+      "bytes": 197284,
+      "sha256": "a8784a7d6097d4d5a22378b0a16da0ca9cb893d89244f49668a5949960ec28c3"
     },
     {
       "path": "风格提示词/H_现成版式/H5_Broadside.md",
@@ -352,9 +387,19 @@
       "sha256": "40846c4a0b2e2fdc2ec0d0d391b35c29c3cce16a7a46fc2d7e5e7dc92c6154ff"
     },
     {
+      "path": "风格提示词/H_现成版式/H6_Capsule.jpg",
+      "bytes": 124854,
+      "sha256": "065e7393641c6f43cf8cde50a9e898519df890a29ecd473874e715b3d56c5d13"
+    },
+    {
       "path": "风格提示词/H_现成版式/H6_Capsule.md",
       "bytes": 218,
       "sha256": "3e1419146c4dc96706efccf73e6cb371d0fee8b613ddbd9ac7e5b4a899791189"
+    },
+    {
+      "path": "风格提示词/H_现成版式/H7_Cartesian.jpg",
+      "bytes": 123757,
+      "sha256": "a86d6c7ee802b971f194339ffe7e71e5b16c5d5cc71fe060ae7e4ed221ea571f"
     },
     {
       "path": "风格提示词/H_现成版式/H7_Cartesian.md",
@@ -362,9 +407,19 @@
       "sha256": "9cbc4b078b66b93e9de5ae187bb4538d44d6b4e88cda4c495c904489ee8f11ae"
     },
     {
+      "path": "风格提示词/H_现成版式/H8_Cobalt Grid.jpg",
+      "bytes": 148130,
+      "sha256": "a310e7a1c3e89b3d751ff02e4561cc2dacd45cfa3d9025e4f8a6d255d0b733d0"
+    },
+    {
       "path": "风格提示词/H_现成版式/H8_Cobalt Grid.md",
       "bytes": 188,
       "sha256": "3608a80b5e7892aea8cb6e01c5adbe50ba55c4a1e523d560d3df50ee1d5c481e"
+    },
+    {
+      "path": "风格提示词/H_现成版式/H9_Coral.jpg",
+      "bytes": 134671,
+      "sha256": "db63c644159c0f62fd24da6ac7892253dbc6d271b902d51dd923caa59ee41845"
     },
     {
       "path": "风格提示词/H_现成版式/H9_Coral.md",
@@ -372,9 +427,19 @@
       "sha256": "65bb45d82b8a427eef14783366179a7f782136ffc7f10471ad424aec91892cab"
     },
     {
+      "path": "风格提示词/K_卡通画风/K10_粉笔黑板.jpg",
+      "bytes": 227838,
+      "sha256": "14a02aeb0c9e12ab1304845a520fffae36826b3212e9150536d61577815f78a5"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K10_粉笔黑板.md",
       "bytes": 204,
       "sha256": "e96fc017c7e442fb22589ec55f36784b65e23f48fff7e4f2d65c2a51fa9d8e3d"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K11_手账笔记.jpg",
+      "bytes": 208270,
+      "sha256": "be1c77461ab0d43f2c9c849cf3f84994e5c43bc81cb0084c5384d633e4d8acfc"
     },
     {
       "path": "风格提示词/K_卡通画风/K11_手账笔记.md",
@@ -382,9 +447,19 @@
       "sha256": "333203dbc28be3e4ecab636f1ea40e4eed736acb8d3de9bb62093af590437007"
     },
     {
+      "path": "风格提示词/K_卡通画风/K12_报纸四格.jpg",
+      "bytes": 283523,
+      "sha256": "7e411d15292274f2fa7eb7884e62fce2f2b243cfb0907466ed244a1d90d6510e"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K12_报纸四格.md",
       "bytes": 210,
       "sha256": "f53e0bb79915a1a4211d55b8818e656d371a3977144d39b56ee66e05a2662b76"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K13_美漫网点.jpg",
+      "bytes": 376077,
+      "sha256": "234d7067bf35d58284baadef77808e02892311c052eda0758c7fc6ac89f1064f"
     },
     {
       "path": "风格提示词/K_卡通画风/K13_美漫网点.md",
@@ -392,9 +467,19 @@
       "sha256": "f7496551e0cd62ea5da08f1a8acc3dd83e7ede4e1554b474b4caf942e0bd613b"
     },
     {
+      "path": "风格提示词/K_卡通画风/K14_波普.jpg",
+      "bytes": 263491,
+      "sha256": "4f4d41af0571f19d96285bd21bf2471b4d47bf2fa9dcf7d0bb5487a554909fa3"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K14_波普.md",
       "bytes": 204,
       "sha256": "f1a3c457da564ec82241313706c5f09387243e6f57c885426e9a6326d3fd2567"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K15_橡皮管 1930.jpg",
+      "bytes": 189249,
+      "sha256": "ae7b660ee8d5d39d9a470c0c874573ed39cb3a21c40ba9caa3f8a401f4bedb23"
     },
     {
       "path": "风格提示词/K_卡通画风/K15_橡皮管 1930.md",
@@ -402,9 +487,19 @@
       "sha256": "3e369d68c0af2ca1764c66567c557f44ba4a2c492c21449cd48575068d66169d"
     },
     {
+      "path": "风格提示词/K_卡通画风/K16_中世纪现代.jpg",
+      "bytes": 180117,
+      "sha256": "92bcdbf6d1766b1a17fb6dec4892d670d2e73746c2148c99a153dc2cdbed03c8"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K16_中世纪现代.md",
       "bytes": 248,
       "sha256": "7e23ddba46c7f801be6e8fc26b4b73460c5dea6ff63a1638b0a6b05b3b57a118"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K17_几何.jpg",
+      "bytes": 108810,
+      "sha256": "98ec830fa92c1f1359a3ffae884a13df5bcf7ccd9a38f003e8b237589c8a8e49"
     },
     {
       "path": "风格提示词/K_卡通画风/K17_几何.md",
@@ -412,9 +507,19 @@
       "sha256": "11eefa798c11288e59f94008e68c82543bae7ef2904d96bd9f6e0028271256e3"
     },
     {
+      "path": "风格提示词/K_卡通画风/K18_水彩.jpg",
+      "bytes": 156274,
+      "sha256": "4f6b299430db480ec03364bbf6f61f03410029e93c2362be9d37876561e8e957"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K18_水彩.md",
       "bytes": 195,
       "sha256": "d137987a34cc918a4a8fcaf92f91bd2f1764a728ca0cc7555d920b32d57a56c7"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K19_厚涂.jpg",
+      "bytes": 253221,
+      "sha256": "1b47209868c027be7249c393a36c41e82cea1ae59379d0c5447adbf26158dfb6"
     },
     {
       "path": "风格提示词/K_卡通画风/K19_厚涂.md",
@@ -432,9 +537,19 @@
       "sha256": "2008666adc1b07b5bbfa2a9bb10b547336a30bab83c27b2b2bd37637b98b02b2"
     },
     {
+      "path": "风格提示词/K_卡通画风/K20_剪纸.jpg",
+      "bytes": 192062,
+      "sha256": "d327cc63d9c85df3d3bcbbbfd94efc7df858145de9bb9e80949bfcb87bf97b5c"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K20_剪纸.md",
       "bytes": 219,
       "sha256": "209e814ede6b8086bb6149c329ca82635ca8e5e9b9d4997befe4d6c79f99380c"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K21_手工纸艺.jpg",
+      "bytes": 160509,
+      "sha256": "7d8600015ff919a813519b301cc2007ae069372fc527269721345a4275eb67f3"
     },
     {
       "path": "风格提示词/K_卡通画风/K21_手工纸艺.md",
@@ -442,9 +557,19 @@
       "sha256": "f73148119922eaaea87e657ae6c58d2819478232a8fef410e933f89bbe0bbe3e"
     },
     {
+      "path": "风格提示词/K_卡通画风/K22_折纸.jpg",
+      "bytes": 117064,
+      "sha256": "6f6788a3d035823de8d56a987a62b452835c5524798094153051cc729caecb77"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K22_折纸.md",
       "bytes": 161,
       "sha256": "1ba1a3134e6bb316d3debb1b589299053b716633127b07b5391846789ac56752"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K23_拼贴.jpg",
+      "bytes": 226659,
+      "sha256": "85ed7b191688d1a5192db90186de747189cf33948355e9225a5a816b5f21f8e6"
     },
     {
       "path": "风格提示词/K_卡通画风/K23_拼贴.md",
@@ -452,9 +577,19 @@
       "sha256": "be2538c569c48da014e4c70b9fafad60f2e9f6ccaeaa4d32b11ac83873bb6edd"
     },
     {
+      "path": "风格提示词/K_卡通画风/K24_粘土.jpg",
+      "bytes": 101031,
+      "sha256": "9803052e19936565d4d0a03e843042e94eebbef998443b29123ffbcae7768fad"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K24_粘土.md",
       "bytes": 186,
       "sha256": "e239494d143d9182eeddae864d5c53cab5be1b097b1d62005092cd2828deff7b"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K25_皮克斯式 3D.jpg",
+      "bytes": 106533,
+      "sha256": "f5994fdfae2e61fe55be60f9a506de842be10a1bbfc25cc8f9bb5662df02ee07"
     },
     {
       "path": "风格提示词/K_卡通画风/K25_皮克斯式 3D.md",
@@ -462,9 +597,19 @@
       "sha256": "878177de06a731dadb4c16f5fdc304dd9a8ede0eb31598f096339f08c16a6031"
     },
     {
+      "path": "风格提示词/K_卡通画风/K26_卡通渲染 3D.jpg",
+      "bytes": 127103,
+      "sha256": "efcefb2bb5e42a5373ac9cb99b0fc2f9963b78e3bdacf5632add939ae6f1e29a"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K26_卡通渲染 3D.md",
       "bytes": 226,
       "sha256": "648cb0a0fce91ee5bafb80a72ac024fc50b027ec3f9bdf381ffe91dc8b45b66d"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K27_低多边形.jpg",
+      "bytes": 141114,
+      "sha256": "1d38f1b6b3b82b68599f9a7cf562f7c5dfb2d76d4fe2d9ad6e690590bc6d9e11"
     },
     {
       "path": "风格提示词/K_卡通画风/K27_低多边形.md",
@@ -472,9 +617,19 @@
       "sha256": "20ae86d4037c8d0da97184c2dc6e7f43f464c2ed8b114ceb1a4b1449a8f9b7f3"
     },
     {
+      "path": "风格提示词/K_卡通画风/K28_像素.jpg",
+      "bytes": 126072,
+      "sha256": "f55875c7df29e0cb585d627ecca1e9f8dee84ee242a4dc742b11b1d15d180827"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K28_像素.md",
       "bytes": 174,
       "sha256": "da346f43b0af0b5cf138301b5b157386c78726aafeb0a8dae35b793cf304d476"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K29_蓝图.jpg",
+      "bytes": 200125,
+      "sha256": "50f25b5858bad0edad5cf22ab9a2d523ba77b644f4cd3e4ade896e21e346bbc1"
     },
     {
       "path": "风格提示词/K_卡通画风/K29_蓝图.md",
@@ -492,9 +647,19 @@
       "sha256": "cce91700945f679f58d9086d032f2a22e90fc055bcae64868dccfc03818b1077"
     },
     {
+      "path": "风格提示词/K_卡通画风/K30_说明书线稿.jpg",
+      "bytes": 148604,
+      "sha256": "6c647b2da2dcfca1d204310d94890672ef2c1f294d8baf1ca6cb9b6842590339"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K30_说明书线稿.md",
       "bytes": 192,
       "sha256": "b11627fe9c965bc8d7389e8ccbe48181c05dbec8bbd0b17ac9725a433e410dce"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K31_平铺整理.jpg",
+      "bytes": 124930,
+      "sha256": "3d1464d4e93495266dd3871fbbe76f593470f45f07cee0e4007cb77bf4643c70"
     },
     {
       "path": "风格提示词/K_卡通画风/K31_平铺整理.md",
@@ -502,9 +667,19 @@
       "sha256": "420e0cba69c14e5e77a086ba3242aa0957986ebfb717e2aff2d41d5ae8fa5ba7"
     },
     {
+      "path": "风格提示词/K_卡通画风/K32_积木.jpg",
+      "bytes": 131726,
+      "sha256": "168c1559457844aa0a124d5488548def321931f8df78be6eccc7d608c222ea8c"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K32_积木.md",
       "bytes": 182,
       "sha256": "f63f5c1aaade5b03ba834601fd7bdd078b5adb864346a6eaf25c03279fb30d8c"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K33_地铁图.jpg",
+      "bytes": 175593,
+      "sha256": "6aad3603e44e5bec30d8151975b8cc7bc74596e44a31883de9d0d44513d9188d"
     },
     {
       "path": "风格提示词/K_卡通画风/K33_地铁图.md",
@@ -512,9 +687,19 @@
       "sha256": "918503601ab096adef79f16ecf90e248fbd7879c2a0f23f3361ce3c727a6a180"
     },
     {
+      "path": "风格提示词/K_卡通画风/K34_赛博霓虹.jpg",
+      "bytes": 161849,
+      "sha256": "82902f059f9f125f9224b3de54c0f3a71c26d4e678cdef1523e0fc9fcf445101"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K34_赛博霓虹.md",
       "bytes": 165,
       "sha256": "d71030493afd31fbe7f7a34bf979657c2e49e77baf899cb79b7e7ffde7d0f422"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K35_旧学院风.jpg",
+      "bytes": 196981,
+      "sha256": "59d351f5137e5d3bb2eff913057bc09bcbdc993f469a89de95605537375ea572"
     },
     {
       "path": "风格提示词/K_卡通画风/K35_旧学院风.md",
@@ -522,14 +707,29 @@
       "sha256": "ff29d584bda9ec23cf9c3411ae768d2e04d5391f6002cd949e82419a445db5f5"
     },
     {
+      "path": "风格提示词/K_卡通画风/K36_丝网印刷.jpg",
+      "bytes": 212138,
+      "sha256": "84f2d0f9cdf0417088c5a65ee6adc81085766b66cd81bdbc69fe4b9082839427"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K36_丝网印刷.md",
       "bytes": 201,
       "sha256": "ba21393874cd9c42b3952c65a5f13512eb423bb26ce643f47c4bf7803b74c9df"
     },
     {
+      "path": "风格提示词/K_卡通画风/K37_哥特.jpg",
+      "bytes": 194734,
+      "sha256": "4644b176d887f062a2137b832513e15060c2085a0742be0ce4f0ba70fb766b94"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K37_哥特.md",
       "bytes": 186,
       "sha256": "9ca50c96450ff6c0622b967cb7d96bf77b46ae85a49d8f8a6940a31d6c52a7de"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K38_情景喜剧.jpg",
+      "bytes": 136515,
+      "sha256": "a6464eabb2adce49172a416778e0e2d2d479eff7954415b33be2f6c12e2df659"
     },
     {
       "path": "风格提示词/K_卡通画风/K38_情景喜剧.md",
@@ -547,9 +747,19 @@
       "sha256": "a1c83c0b408ff224ddef6af703b7c00651a0a3756824593d8cba83161013bc1d"
     },
     {
+      "path": "风格提示词/K_卡通画风/K4_极简线条小人.jpg",
+      "bytes": 43100,
+      "sha256": "84185727046b77b59c83b54ba631e2630ed5d13da3ca6939d59217eabb880ff6"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K4_极简线条小人.md",
       "bytes": 208,
       "sha256": "e5c6ad571f54186dd79cebf6553516ffb1c425d90850340abec9b960426e81e3"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K5_孟菲斯扁平人.jpg",
+      "bytes": 140826,
+      "sha256": "50a2efccae1cb9a5f68ae1baa4839caa0e138230a6ef57a8b4a6186bc2136b33"
     },
     {
       "path": "风格提示词/K_卡通画风/K5_孟菲斯扁平人.md",
@@ -557,9 +767,19 @@
       "sha256": "95d8d589c1493067c94ec3aab5ab65def00520a140f77dc0af2ac640c0429614"
     },
     {
+      "path": "风格提示词/K_卡通画风/K6_清线漫画.jpg",
+      "bytes": 152162,
+      "sha256": "442e13728ae43c767594939f22b7ae17bae0adfb7ac535102cbaa85e46bf1c00"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K6_清线漫画.md",
       "bytes": 205,
       "sha256": "1ab896e3782dddd570b4244c263c4fba7ed675efb20f699d1150fecf20fab630"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K7_日式动画.jpg",
+      "bytes": 114091,
+      "sha256": "2775c396d89674274c2d85c578f3016eb8917cf05489e16b2c0a0fd0bc127de8"
     },
     {
       "path": "风格提示词/K_卡通画风/K7_日式动画.md",
@@ -567,9 +787,19 @@
       "sha256": "766225c683dc0e257fbf1f5877e51deac7e924e0ee10383a8fb290347bf0d8f6"
     },
     {
+      "path": "风格提示词/K_卡通画风/K8_绘本.jpg",
+      "bytes": 151670,
+      "sha256": "8e54e37e94a9fbf7d6aeab3f5751083b55799fa7b47e48c4f778ce9a312e9ac4"
+    },
+    {
       "path": "风格提示词/K_卡通画风/K8_绘本.md",
       "bytes": 211,
       "sha256": "10e85f963757d55d4938976cf4e64f7686021f2066699b59640313d48681d6c4"
+    },
+    {
+      "path": "风格提示词/K_卡通画风/K9_涂鸦.jpg",
+      "bytes": 290164,
+      "sha256": "386bddf3d359309ffc67f3c190a1a15a4f3f12f3c66b2bba25be29395b799bae"
     },
     {
       "path": "风格提示词/K_卡通画风/K9_涂鸦.md",
@@ -1167,9 +1397,19 @@
       "sha256": "3d3ff488c4f6ff1a8fec52903ca864b2e8f1c29bac85696a964a1ed922e5c3dc"
     },
     {
+      "path": "风格提示词/M_动态风格/M10_把一个抽象概念、一种情绪做成画面.jpg",
+      "bytes": 216478,
+      "sha256": "284322ab5326ca0b52b1dab6bbda2da8d530d887f51f14313fdfa1605ffb2506"
+    },
+    {
       "path": "风格提示词/M_动态风格/M10_把一个抽象概念、一种情绪做成画面.md",
       "bytes": 660,
       "sha256": "e201fd11f02310ab0667e7e9a873ac24c85782222b8cad4a036220d83277c752"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M11_人生循环.jpg",
+      "bytes": 130340,
+      "sha256": "b1f0ffdfc18d6a4c0b2e5aaadd53361a41b40105583a1ec1f33dbdd3e425dcb8"
     },
     {
       "path": "风格提示词/M_动态风格/M11_人生循环.md",
@@ -1177,9 +1417,19 @@
       "sha256": "e5cb6eb6ab057faadaadbd98c095bd237465ef88aca0b4b265b2e50c80b55c85"
     },
     {
+      "path": "风格提示词/M_动态风格/M12_剪纸皮影.jpg",
+      "bytes": 156625,
+      "sha256": "4cc94b3a51d2c164609ca78cea1a81d2a775e331853aa8441392d73441037dab"
+    },
+    {
       "path": "风格提示词/M_动态风格/M12_剪纸皮影.md",
       "bytes": 569,
       "sha256": "806c3befe21dde1d0b90478eeaf94b234368d55ceb9b5e59f5fbac0309dfdc6d"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M13_手绘定格，第一人称.jpg",
+      "bytes": 250749,
+      "sha256": "413a640704b88376b66f0ca2182b99a7c5dafd3ebb005ed3484de108e798791c"
     },
     {
       "path": "风格提示词/M_动态风格/M13_手绘定格，第一人称.md",
@@ -1187,9 +1437,19 @@
       "sha256": "d6e8df592b7e940bd6f274260f6634169966dc5a08fb1d46a631dc049bc18786"
     },
     {
+      "path": "风格提示词/M_动态风格/M14_.jpg",
+      "bytes": 112451,
+      "sha256": "3788e18a2bc97a4767c000e9b50c98c1910082ecb99a2bd2a9a5f45d5b072df9"
+    },
+    {
       "path": "风格提示词/M_动态风格/M14_.md",
       "bytes": 81,
       "sha256": "e71eb3448388320d9a3810e1104fee7503e88f463f16ade994bec2addd1efa22"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M15_.jpg",
+      "bytes": 216109,
+      "sha256": "637d4fcdaec6a5ca753c20f6c0b29d0b60ed176aea77f91bd1d3bd49a182512c"
     },
     {
       "path": "风格提示词/M_动态风格/M15_.md",
@@ -1197,9 +1457,19 @@
       "sha256": "db5303979c4bc15fc996f195fb2c530450d365264c3d00749ed4924858a54168"
     },
     {
+      "path": "风格提示词/M_动态风格/M16_.jpg",
+      "bytes": 193265,
+      "sha256": "b7d604e98a8acb31d23c98bc005406371ea67889c19c482a3e32f576f1a0fce1"
+    },
+    {
       "path": "风格提示词/M_动态风格/M16_.md",
       "bytes": 81,
       "sha256": "59c8763fbbd8b614d9f18a3a85102fe1f14bb5e58b7b21c47b66f29b5cd5de39"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M17_.jpg",
+      "bytes": 175494,
+      "sha256": "373c9e7ed50acc09caa4bf3e40d60340ebeef252180297315ef385a00f048158"
     },
     {
       "path": "风格提示词/M_动态风格/M17_.md",
@@ -1207,9 +1477,19 @@
       "sha256": "6d0c06e7dd4f809597f7f6fabc99133ae05223e1204ebe5e9a31aaf521133eff"
     },
     {
+      "path": "风格提示词/M_动态风格/M18_数学·科学讲解（3Blue1Brown 那种）.jpg",
+      "bytes": 118776,
+      "sha256": "c0b00e99ab24222d04637786a902f8eba13f37a2d5b814b0cc27d61ca1986f9f"
+    },
+    {
       "path": "风格提示词/M_动态风格/M18_数学·科学讲解（3Blue1Brown 那种）.md",
       "bytes": 543,
       "sha256": "daed0e04e775d366d8420c0d9dc5419f48904cf0c507d44086c593e1c6034561"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M19_零基础科普.jpg",
+      "bytes": 271245,
+      "sha256": "ff2626b8762d1eec568020c9a5307f6f718ebccb2dbe5a80f726ddc60cc31470"
     },
     {
       "path": "风格提示词/M_动态风格/M19_零基础科普.md",
@@ -1218,8 +1498,8 @@
     },
     {
       "path": "风格提示词/M_动态风格/M1_白板手绘讲解.jpg",
-      "bytes": 202135,
-      "sha256": "df507f3b5db9691764594778e372cf8e0bb7a7ead0fe7c0b49889d42abb167b6"
+      "bytes": 168512,
+      "sha256": "dd97bd8da565a83fe63f8ff1d7c6cbfe1d4d3d51af962347c40af49bdaedd717"
     },
     {
       "path": "风格提示词/M_动态风格/M1_白板手绘讲解.md",
@@ -1227,9 +1507,19 @@
       "sha256": "9c3b9b8f54c5daa7e32d5d54d857880e5c05621a566e73a27d8db4063bfbe965"
     },
     {
+      "path": "风格提示词/M_动态风格/M20_时间线·历史.jpg",
+      "bytes": 144967,
+      "sha256": "1e196ad886bb3e91b6bec3769fab55280036f26c82b97c651656ccc67d3c24cc"
+    },
+    {
       "path": "风格提示词/M_动态风格/M20_时间线·历史.md",
       "bytes": 701,
       "sha256": "b7351cf4eed4f197b1d8c52e82f97c322e2eed7e0debbf19b1ea3b0a0d16d3a0"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M21_原理拆解（它是怎么工作的）.jpg",
+      "bytes": 148036,
+      "sha256": "b76ae2f9a381d8e01fde561c98ddc9c5a399b5ec2f4d795369ebbfdcdc50322e"
     },
     {
       "path": "风格提示词/M_动态风格/M21_原理拆解（它是怎么工作的）.md",
@@ -1237,9 +1527,19 @@
       "sha256": "c0ea294487eb7c35a1c4345807a0344e573e8f6771920e59ffac810952d9e78a"
     },
     {
+      "path": "风格提示词/M_动态风格/M22_配方式步骤.jpg",
+      "bytes": 159977,
+      "sha256": "3e950db879235227640b894ba63d1babb9a4940e23f2292ebff00129edef9cdd"
+    },
+    {
       "path": "风格提示词/M_动态风格/M22_配方式步骤.md",
       "bytes": 592,
       "sha256": "834f97b8b3cc81ddcedecb6c137fc5914bc69e146eb137dc5322adc5e65b6c77"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M23_五幕讲解（万能讲解模板）.jpg",
+      "bytes": 126883,
+      "sha256": "aa9b5bfc6a6864e8f77a504a2baeec6217b76738cfa7f8ae7adffae2e20ca3df"
     },
     {
       "path": "风格提示词/M_动态风格/M23_五幕讲解（万能讲解模板）.md",
@@ -1247,9 +1547,19 @@
       "sha256": "b64e0a077c12b8e0f41c7110cc8161a6484251972c5656634b4ec346691a9ea2"
     },
     {
+      "path": "风格提示词/M_动态风格/M24_四段式发布片.jpg",
+      "bytes": 244847,
+      "sha256": "24046a106398d5978a10651d118f1c11299fcbeba7d5139a8ef02d7f2bf47464"
+    },
+    {
       "path": "风格提示词/M_动态风格/M24_四段式发布片.md",
       "bytes": 830,
       "sha256": "e5ec737ef07d7b590ff82f2cea35a0310274ea8413f8f521e0c4bb324d20ccb7"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M25_歌词卡点.jpg",
+      "bytes": 173867,
+      "sha256": "ef503b51c46947ad1801059e2c6e8e0704c621e5491776475dff0144684c54bb"
     },
     {
       "path": "风格提示词/M_动态风格/M25_歌词卡点.md",
@@ -1257,9 +1567,19 @@
       "sha256": "1a241c8929645d51fd1b9dc3761da5addf1671ad91dcc811083c5c0b43259db7"
     },
     {
+      "path": "风格提示词/M_动态风格/M26_.jpg",
+      "bytes": 176687,
+      "sha256": "cde1d0295359ffb8e99c300e5c387bc080f739e0c65bfe2cc738a4bdc6bfbc3c"
+    },
+    {
       "path": "风格提示词/M_动态风格/M26_.md",
       "bytes": 81,
       "sha256": "9b1a38dbcb12edb2c6b11a3d0cb6185c465c658e4d02fd9185f6566bbad47142"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M27_无对白短片，声音讲一半.jpg",
+      "bytes": 171210,
+      "sha256": "b8f762c8550e23744e986af1a21923f5faa50a9bade463558c4f7bd766fc2271"
     },
     {
       "path": "风格提示词/M_动态风格/M27_无对白短片，声音讲一半.md",
@@ -1267,9 +1587,19 @@
       "sha256": "db1ed34fd9461e6545520ee65ef55481703a32c5e7328cabf644cf22361c487b"
     },
     {
+      "path": "风格提示词/M_动态风格/M28_对称暖色的电影感空镜.jpg",
+      "bytes": 194629,
+      "sha256": "94169348c9fe1d92498fe21134e07a13b496cdad5f488d7e1ba0a72ca19bef27"
+    },
+    {
       "path": "风格提示词/M_动态风格/M28_对称暖色的电影感空镜.md",
       "bytes": 680,
       "sha256": "c2c6b2203e936efd3c7c61f2f5d5698f2536fdaf6e8ec68a8520b0606fa15c75"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M29_日落天空的 3D 空镜加一句话.jpg",
+      "bytes": 174991,
+      "sha256": "d0a715d61db39fcb500df5d5c5f8135428a0a61f2e6bf75a071b98885da68752"
     },
     {
       "path": "风格提示词/M_动态风格/M29_日落天空的 3D 空镜加一句话.md",
@@ -1277,9 +1607,19 @@
       "sha256": "e48483cfeb3f351d4065d733c5190b1055e860f6cce46e5cceb72333e8b1348f"
     },
     {
+      "path": "风格提示词/M_动态风格/M2_纸感手写笔记.jpg",
+      "bytes": 220199,
+      "sha256": "96d030ed5173dfaa7ca43f25a2c4768d702464a57205c53e577925fbcb5a142c"
+    },
+    {
       "path": "风格提示词/M_动态风格/M2_纸感手写笔记.md",
       "bytes": 893,
       "sha256": "9b678798cf2332a24ae6367ade6cf70bc46243f83e1a6000ac47a7f74f486ff0"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M30_东方意境.jpg",
+      "bytes": 208252,
+      "sha256": "8431e7c09beb1d1c514bbb934933a6416ba0cd3f6719529752281546c94bc9ca"
     },
     {
       "path": "风格提示词/M_动态风格/M30_东方意境.md",
@@ -1287,9 +1627,19 @@
       "sha256": "720478be2e9342039ae2ed5707a42162a916b1dcf1a8e33a52541475ccfb4e37"
     },
     {
+      "path": "风格提示词/M_动态风格/M31_粘土定格 MV.jpg",
+      "bytes": 137857,
+      "sha256": "f5832bbfa873501f971770e97ddf4b760d547c54d60219beee8aa998309878c9"
+    },
+    {
       "path": "风格提示词/M_动态风格/M31_粘土定格 MV.md",
       "bytes": 529,
       "sha256": "968d6c57323a534db911595d46b02d81b68e070f11eb0f3ce60d602786b51844"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M32_竖屏快节奏 POV.jpg",
+      "bytes": 248939,
+      "sha256": "e2628f09e4e69005b1fff4edc7fb290ba56054e4c16ab290ef88d1862b001e2a"
     },
     {
       "path": "风格提示词/M_动态风格/M32_竖屏快节奏 POV.md",
@@ -1297,9 +1647,19 @@
       "sha256": "d925fabe93d800eaf176cb81c64ba16d818fb3601a7290bcfc76874174795747"
     },
     {
+      "path": "风格提示词/M_动态风格/M33_从一个点拉远到宇宙.jpg",
+      "bytes": 134609,
+      "sha256": "10c679336a289017daa5ddbb91eec1aeb04b5d087758c7f122632a7365b645f3"
+    },
+    {
       "path": "风格提示词/M_动态风格/M33_从一个点拉远到宇宙.md",
       "bytes": 645,
       "sha256": "92019d4eeacb1de60449615866128e179cc47e525ccb557bfb1c6e95166c6e57"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M34_新闻快讯盘点.jpg",
+      "bytes": 191977,
+      "sha256": "779c92702330ea0a2e423703fe394dcbba399f9f2d6c202a1531c993366f4160"
     },
     {
       "path": "风格提示词/M_动态风格/M34_新闻快讯盘点.md",
@@ -1307,9 +1667,19 @@
       "sha256": "4de2d4e279d17a168425c21a098df055c61c3860c075581aed306a36af8cfaf8"
     },
     {
+      "path": "风格提示词/M_动态风格/M35_.jpg",
+      "bytes": 192187,
+      "sha256": "600099c7724b8dae238f63681c93a5667ede94111c0ce27b678df2f0649b1f80"
+    },
+    {
       "path": "风格提示词/M_动态风格/M35_.md",
       "bytes": 81,
       "sha256": "513695128e686b22156c521f7422b49feb5a178c74a1177a55a5ef05960a3f0b"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M36_破框.jpg",
+      "bytes": 148258,
+      "sha256": "14a037ced3c1ad640ad3153b1bab00312a2b9bf4c919500427d518471d0748e5"
     },
     {
       "path": "风格提示词/M_动态风格/M36_破框.md",
@@ -1317,9 +1687,19 @@
       "sha256": "852dc384a0b10366b86787e89decd814c1fe5a61617670041e6f00b846c09e14"
     },
     {
+      "path": "风格提示词/M_动态风格/M37_Logo 慢慢拼出来（片头片尾）.jpg",
+      "bytes": 283639,
+      "sha256": "bf7dec86b7c0236bc66824b252c2ebcc622c24172a6c50e632d619f1bac17f26"
+    },
+    {
       "path": "风格提示词/M_动态风格/M37_Logo 慢慢拼出来（片头片尾）.md",
       "bytes": 435,
       "sha256": "75fc9e50f5820f10413da2e6aec22567e2d730babfe9fcbf2d203f86f4aad969"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M38_一个形状变到底.jpg",
+      "bytes": 108717,
+      "sha256": "fbafee170b146e2a4d191aaded101d05bebd7e904dda9613f95257a75d83fb25"
     },
     {
       "path": "风格提示词/M_动态风格/M38_一个形状变到底.md",
@@ -1327,9 +1707,19 @@
       "sha256": "00190e03f389d7cda397381ced8de52b59b671aa72470087d0b75aee2ed36969"
     },
     {
+      "path": "风格提示词/M_动态风格/M39_.jpg",
+      "bytes": 143397,
+      "sha256": "48ddc924f7659bf2044d1063a45cb961e83402cd045ba85a02ef831195b35916"
+    },
+    {
       "path": "风格提示词/M_动态风格/M39_.md",
       "bytes": 81,
       "sha256": "44b145629af79b2ed1f8166c77188d4c3a5224c368194c3a7da5ae71ccf6f242"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M3_文字建筑（口播金句专用）.jpg",
+      "bytes": 210198,
+      "sha256": "dddcea8b0e470a183bdaab434f1d52859703243a680fa791cf4881a9300f0043"
     },
     {
       "path": "风格提示词/M_动态风格/M3_文字建筑（口播金句专用）.md",
@@ -1337,9 +1727,19 @@
       "sha256": "138477fd3d04c7d04de7818f87affc23c8f51ac2177013931096f18c8f80b924"
     },
     {
+      "path": "风格提示词/M_动态风格/M40_.jpg",
+      "bytes": 94528,
+      "sha256": "590ef58f5367b1d41555357496fd3d4c664e350f232f0d5c4ecf7f4ee9e39020"
+    },
+    {
       "path": "风格提示词/M_动态风格/M40_.md",
       "bytes": 81,
       "sha256": "a051c6addc56a3a735dcede17015d553c5ab483ac4b5d05a3a0211c5da0d45f8"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M4_一个元素串全片.jpg",
+      "bytes": 162138,
+      "sha256": "241204dbb1a86d841467ca77da708f1547598b49c242142284bd88bc2132d305"
     },
     {
       "path": "风格提示词/M_动态风格/M4_一个元素串全片.md",
@@ -1347,9 +1747,19 @@
       "sha256": "0cae463a6395ade013f41f3a1bd4023ae19a060d43dea359e1c77797f64899c7"
     },
     {
+      "path": "风格提示词/M_动态风格/M5_一镜到底.jpg",
+      "bytes": 348850,
+      "sha256": "6aef9e1d5a976c26c83ee805f794cf0a566d73ab014602a8fa05b28bea24e28d"
+    },
+    {
       "path": "风格提示词/M_动态风格/M5_一镜到底.md",
       "bytes": 844,
       "sha256": "c6126639d5937e801888fcdffc223ed4e0d42da9d8b2fa322d09f742415a970d"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M6_苹果发布会风.jpg",
+      "bytes": 67466,
+      "sha256": "96ca96a119df5ebb9c42e70dfbfa6f5b3d357010f7e7293cfba19416179337bc"
     },
     {
       "path": "风格提示词/M_动态风格/M6_苹果发布会风.md",
@@ -1357,14 +1767,29 @@
       "sha256": "c7052b15d6a9f166bd7fa5d1bda9ce88eaa4993120df75d81f0a12f3930adb9f"
     },
     {
+      "path": "风格提示词/M_动态风格/M7_极简卡点.jpg",
+      "bytes": 95712,
+      "sha256": "aee6599d4c2592b8d626c48afd6b7b976568c89619040de91b77a24361d80b98"
+    },
+    {
       "path": "风格提示词/M_动态风格/M7_极简卡点.md",
       "bytes": 856,
       "sha256": "1e08c4505e7ab6a0240eae0e6b7ad2e2f7727f3f6e7f0811769b0171787645eb"
     },
     {
+      "path": "风格提示词/M_动态风格/M8_口播 + 逐字字幕.jpg",
+      "bytes": 130280,
+      "sha256": "fa139c2acd49aa100d8e42aae09c996dc090ea18ea20710f684654456135a26a"
+    },
+    {
       "path": "风格提示词/M_动态风格/M8_口播 + 逐字字幕.md",
       "bytes": 1004,
       "sha256": "8b63d18e6769a22f92becd5067d7024c8f13858e31f0d23b3007386a62eb89aa"
+    },
+    {
+      "path": "风格提示词/M_动态风格/M9_情绪弧线：混乱、掌控、清晰.jpg",
+      "bytes": 220500,
+      "sha256": "ee7d29cc60e842157f304d61f399cd4bc9af04f34dc90a8be31bd111354791db"
     },
     {
       "path": "风格提示词/M_动态风格/M9_情绪弧线：混乱、掌控、清晰.md",
@@ -2422,9 +2847,19 @@
       "sha256": "7bbbb1b65571f8ff16e3984eb18151c546a56119333e54e9e4b81e3b5e6d7fd4"
     },
     {
+      "path": "风格提示词/V_mg-styles-15/V10_极光与毛玻璃.jpg",
+      "bytes": 95166,
+      "sha256": "47f1c132bc60721cd16e87c07e023c2a6bcf0877f3b12ea6fe249938e2024531"
+    },
+    {
       "path": "风格提示词/V_mg-styles-15/V10_极光与毛玻璃.md",
       "bytes": 7988,
       "sha256": "cf10181147c72ed9c295ea76e553c619236b9bdeb03e64bb6c4480401580d636"
+    },
+    {
+      "path": "风格提示词/V_mg-styles-15/V11_包豪斯几何.jpg",
+      "bytes": 150245,
+      "sha256": "dd83aa5b309a8f21feab80d346afd3ef9212d4a973879c79af11802e10dab787"
     },
     {
       "path": "风格提示词/V_mg-styles-15/V11_包豪斯几何.md",
@@ -2432,9 +2867,19 @@
       "sha256": "5c30fde570fc8bc7bb865b9b0702c41098c9bb071cc70af70a2d5c8a549f25f8"
     },
     {
+      "path": "风格提示词/V_mg-styles-15/V12_80 年代合成波 · VHS.jpg",
+      "bytes": 146370,
+      "sha256": "34a89fb5a317e688e5098f3bd048584336e91c9b8f8b32b95e9067b8188610eb"
+    },
+    {
       "path": "风格提示词/V_mg-styles-15/V12_80 年代合成波 · VHS.md",
       "bytes": 8089,
       "sha256": "97124d445c3e5879c7b50c9bf874b122f8d4d04cec8fde24b49a67bd9832ba61"
+    },
+    {
+      "path": "风格提示词/V_mg-styles-15/V13_像素.jpg",
+      "bytes": 270497,
+      "sha256": "ed9a9388b9a75f3d8fd4dfa3cea638a5cecdc72dd470e0d7cf9bed74bc9a52da"
     },
     {
       "path": "风格提示词/V_mg-styles-15/V13_像素.md",
@@ -2442,9 +2887,19 @@
       "sha256": "3eed82912a91ffca3b453510be2cf69c8ffcf46c9f34944470eee286cc3eeea0"
     },
     {
+      "path": "风格提示词/V_mg-styles-15/V14_液态流动.jpg",
+      "bytes": 177359,
+      "sha256": "becacc7ec92d98506f0487ca6bc095601bda6566ec7e9634bcaa352c601adc5f"
+    },
+    {
       "path": "风格提示词/V_mg-styles-15/V14_液态流动.md",
       "bytes": 7759,
       "sha256": "92ed318f86c35c7c3d8304e8ddbab415dc4ac07164e97676f2440ed8039cf7c8"
+    },
+    {
+      "path": "风格提示词/V_mg-styles-15/V15_综艺花字.jpg",
+      "bytes": 250960,
+      "sha256": "68980a3ca78772ea55d2720552f98e978d5ad2c8061d63a98e49fa3670e81107"
     },
     {
       "path": "风格提示词/V_mg-styles-15/V15_综艺花字.md",
@@ -2452,9 +2907,19 @@
       "sha256": "ad55084d2ff0fed0f6bdb44d7ee032c3b851613e7a3775d8100bd93379d7c868"
     },
     {
+      "path": "风格提示词/V_mg-styles-15/V1_逐帧手绘 · 抖动线条.jpg",
+      "bytes": 321118,
+      "sha256": "146d1aeed8e8df8219b4dcb70cc7c3b612076c7418b2656066f3460a59037d7d"
+    },
+    {
       "path": "风格提示词/V_mg-styles-15/V1_逐帧手绘 · 抖动线条.md",
       "bytes": 7950,
       "sha256": "ec812502f6e2bfd00ab14b213c22ec71888e5150f4984b50af32b2f3f6f72dbc"
+    },
+    {
+      "path": "风格提示词/V_mg-styles-15/V2_等距 2.5D.jpg",
+      "bytes": 194047,
+      "sha256": "851c3d81ee567e504c3146efba0681d3b2af33caf068213e700ff2bf872b448f"
     },
     {
       "path": "风格提示词/V_mg-styles-15/V2_等距 2.5D.md",
@@ -2462,9 +2927,19 @@
       "sha256": "f754e945057e10ef22714efe3f0449813ebd0cc8476d0eac95301bdd699a560d"
     },
     {
+      "path": "风格提示词/V_mg-styles-15/V3_扁平矢量.jpg",
+      "bytes": 69641,
+      "sha256": "92704447809f17ee80b6755a67eb7e009201550ded7af02064c8100c3336eb7c"
+    },
+    {
       "path": "风格提示词/V_mg-styles-15/V3_扁平矢量.md",
       "bytes": 8378,
       "sha256": "a6008465517479a63e70d40c34114c4fe014516d1ce741b0859f802e007de7bf"
+    },
+    {
+      "path": "风格提示词/V_mg-styles-15/V4_线条画.jpg",
+      "bytes": 204669,
+      "sha256": "b1f9e906b57baecf49ce975093998e1126ad9979180ffedcc13840d9bad9be65"
     },
     {
       "path": "风格提示词/V_mg-styles-15/V4_线条画.md",
@@ -2472,9 +2947,19 @@
       "sha256": "b349f0d72ffe66b665cf3dff3c8a2f13c896c87cbf740fe9a28c5df3cdb66e41"
     },
     {
+      "path": "风格提示词/V_mg-styles-15/V5_3D 渲染.jpg",
+      "bytes": 93594,
+      "sha256": "a4afbddadb9352e73e4137de5d493e76ce9e0f52a11d2a83e15451949e09d01e"
+    },
+    {
       "path": "风格提示词/V_mg-styles-15/V5_3D 渲染.md",
       "bytes": 8012,
       "sha256": "14bf0bb01d8bdf118f73de81116454f0c7c22a380c736ff7cde6acaeb3fdac40"
+    },
+    {
+      "path": "风格提示词/V_mg-styles-15/V6_形变.jpg",
+      "bytes": 170715,
+      "sha256": "78c933e6f66ddf7dc505ccdd718f7b1b98d2fc137e42d29786268f5247df9a16"
     },
     {
       "path": "风格提示词/V_mg-styles-15/V6_形变.md",
@@ -2482,9 +2967,19 @@
       "sha256": "c63e68216cbc41b97116e9db9509dcef3909b378704e7c229614996194d35b94"
     },
     {
+      "path": "风格提示词/V_mg-styles-15/V7_贴纸讲解.jpg",
+      "bytes": 105929,
+      "sha256": "28eb19c67232631e3b5859bcd5013aab3560746adf160c9b2eb6234f0aeb732e"
+    },
+    {
       "path": "风格提示词/V_mg-styles-15/V7_贴纸讲解.md",
       "bytes": 8148,
       "sha256": "31918e3ff5abd2418fd07360f4e097ffa37caacd094d94a0052f8a1f512a0297"
+    },
+    {
+      "path": "风格提示词/V_mg-styles-15/V8_赛博朋克界面.jpg",
+      "bytes": 137929,
+      "sha256": "2ce5b795cd167ef500773428a5b8fe3d0ff96ee38d6ea95b11cde9d830c51a2b"
     },
     {
       "path": "风格提示词/V_mg-styles-15/V8_赛博朋克界面.md",
@@ -2492,9 +2987,19 @@
       "sha256": "a35d165df668938054c7a5b8a1010675d6e7d7f3a504d3897cf1d0ef02588486"
     },
     {
+      "path": "风格提示词/V_mg-styles-15/V9_拼贴 · 剪贴.jpg",
+      "bytes": 215449,
+      "sha256": "b151c64163869a5773a3074645316412a434bf9f5a79166c4d01dfa5012e3dec"
+    },
+    {
       "path": "风格提示词/V_mg-styles-15/V9_拼贴 · 剪贴.md",
       "bytes": 7875,
       "sha256": "4d8eb2621faa8e6a03f4dc0b886689b4b7bef801387e84bffda4678ffbf94100"
+    },
+    {
+      "path": "风格提示词/X_code-video/X10_粒子.jpg",
+      "bytes": 340999,
+      "sha256": "8e4ee3ffbacfd544572e3cd9763793e3db20308f9f1d7708fd00d11b8ca75a5f"
     },
     {
       "path": "风格提示词/X_code-video/X10_粒子.md",
@@ -2502,9 +3007,19 @@
       "sha256": "7c39219706c220eebfaf9b2894c23d21515b8cabeb0148f9986af5896d651578"
     },
     {
+      "path": "风格提示词/X_code-video/X11_翻牌显示板.jpg",
+      "bytes": 254625,
+      "sha256": "7cc11ae4a518d44ff161b3a0842481eb964cab707d5a547d85ee2d95f963b050"
+    },
+    {
       "path": "风格提示词/X_code-video/X11_翻牌显示板.md",
       "bytes": 1152,
       "sha256": "c32305d36758208b253741c3fa238ba2ee2dbbd0cde654bf7665b417223ccf93"
+    },
+    {
+      "path": "风格提示词/X_code-video/X12_霓虹灯牌.jpg",
+      "bytes": 241588,
+      "sha256": "f2c70a9c89d31d00c3c4b3e79495e2bdb2ac884a43b70eddd302419017196090"
     },
     {
       "path": "风格提示词/X_code-video/X12_霓虹灯牌.md",
@@ -2512,9 +3027,19 @@
       "sha256": "31a85aba48f0fd5fbc6814256f27690b5c1b60bdcf1019df573027d2b94ce4d6"
     },
     {
+      "path": "风格提示词/X_code-video/X13_16-bit 街机.jpg",
+      "bytes": 310587,
+      "sha256": "cef22634ebd444f6ac708a61afbf01143f41f4258951c8ac87b3239e5cb9dcd2"
+    },
+    {
       "path": "风格提示词/X_code-video/X13_16-bit 街机.md",
       "bytes": 1072,
       "sha256": "3bb88ce21fc3743a74afdb71e7686c793a9f3396ebc76c517019e0df47bf27a2"
+    },
+    {
+      "path": "风格提示词/X_code-video/X14_CRT 终端.jpg",
+      "bytes": 144375,
+      "sha256": "e8ae319262a13f72595dd2971ba134a6e6135b5731399bdc1b2678fedebcd1de"
     },
     {
       "path": "风格提示词/X_code-video/X14_CRT 终端.md",
@@ -2522,9 +3047,19 @@
       "sha256": "7ac205769f15f0cff2e14abef887d432c9cc183639e301fb67e6d6e20aed386d"
     },
     {
+      "path": "风格提示词/X_code-video/X15_热敏小票.jpg",
+      "bytes": 176775,
+      "sha256": "64080b74e13bce06e3463891a26f2c335cd7bd97100c096e0f106927e21d34a7"
+    },
+    {
       "path": "风格提示词/X_code-video/X15_热敏小票.md",
       "bytes": 1013,
       "sha256": "2fe02d460698b921afb0d79592bc3c3b9351f2e875888a31eaa23cbad50aa187"
+    },
+    {
+      "path": "风格提示词/X_code-video/X16_地铁线路图.jpg",
+      "bytes": 220453,
+      "sha256": "f48cb23e012abd0740c3c48c75298a3563539593135d46763914ca8757ed4458"
     },
     {
       "path": "风格提示词/X_code-video/X16_地铁线路图.md",
@@ -2532,9 +3067,19 @@
       "sha256": "b4d81b9abdac7c4e99c27ef6608e5dd6ae8e5296dd03bac6a1c3eaaf506643f0"
     },
     {
+      "path": "风格提示词/X_code-video/X17_蓝图.jpg",
+      "bytes": 245665,
+      "sha256": "685e09e082eaa0d40484798917697e838cd3c1ca23fdb397148375ea47cea2f5"
+    },
+    {
       "path": "风格提示词/X_code-video/X17_蓝图.md",
       "bytes": 981,
       "sha256": "f651c31fd400e9a2fcb9b6c074636c43b77a86ef40f362c82bbbeba03fca850b"
+    },
+    {
+      "path": "风格提示词/X_code-video/X18_漫画书.jpg",
+      "bytes": 274673,
+      "sha256": "faca98cfed236a1d215b201f45e2b386e365fc0872c60edc2dd6a19cb418cd93"
     },
     {
       "path": "风格提示词/X_code-video/X18_漫画书.md",
@@ -2542,9 +3087,19 @@
       "sha256": "5f1cdbe9829f5a7419955f8fa88bc3042d26eab91d3df332531a3ec5ea4b5de2"
     },
     {
+      "path": "风格提示词/X_code-video/X19_纪录片.jpg",
+      "bytes": 215888,
+      "sha256": "ae2bc8a27c1429a77cc46d8f09267f0ff942aa66ab9711cdb8bb29bb98e35ccd"
+    },
+    {
       "path": "风格提示词/X_code-video/X19_纪录片.md",
       "bytes": 5821,
       "sha256": "01bbb96ad03d23da87f1b1cf94fd577806ede74b01b016b461e36ecd9cc1f04e"
+    },
+    {
+      "path": "风格提示词/X_code-video/X1_手绘.jpg",
+      "bytes": 306851,
+      "sha256": "e2ee591a990cc956090478da21900d771e3c888093ced2257182c76f28adf99c"
     },
     {
       "path": "风格提示词/X_code-video/X1_手绘.md",
@@ -2552,9 +3107,19 @@
       "sha256": "81b5bacea246c8e0a23cfd5c2b842bcaf2b5143be8167633f870b11d61d97b3f"
     },
     {
+      "path": "风格提示词/X_code-video/X20_博物馆展览.jpg",
+      "bytes": 179176,
+      "sha256": "f0bf3fad3b8c648bd0ea9f6bcf23959e4eba1509437e000e144175ad26f9de06"
+    },
+    {
       "path": "风格提示词/X_code-video/X20_博物馆展览.md",
       "bytes": 5276,
       "sha256": "000a2ee86af152142762d92b891922bd7fec2c1d1e4daa0ef86b7bd3fe26976b"
+    },
+    {
+      "path": "风格提示词/X_code-video/X21_突发新闻.jpg",
+      "bytes": 140715,
+      "sha256": "fc7b906914c43ecd3ef6171dd3a1ddc6dd08fcaad0a7bc71a059b4dcd2be9c46"
     },
     {
       "path": "风格提示词/X_code-video/X21_突发新闻.md",
@@ -2562,9 +3127,19 @@
       "sha256": "0ee68f6c4ec6b7339991d245db5f2049483af0cfbb1801f483da9f86ba3d7982"
     },
     {
+      "path": "风格提示词/X_code-video/X22_侦探线索板.jpg",
+      "bytes": 194427,
+      "sha256": "8026a6d8733e3c179674c87e03835642e893e7628c8cbefad4a53c6b987e3847"
+    },
+    {
       "path": "风格提示词/X_code-video/X22_侦探线索板.md",
       "bytes": 4820,
       "sha256": "89b54fd640e365c2460b294d9da849d6929fc4084392975edab6cedb6c472175"
+    },
+    {
+      "path": "风格提示词/X_code-video/X23_绘本.jpg",
+      "bytes": 276882,
+      "sha256": "d5d1d7a8bd36caeea904db73dc2f5231aa91c0e72178d8ec1e5d117d08b4b8c6"
     },
     {
       "path": "风格提示词/X_code-video/X23_绘本.md",
@@ -2572,9 +3147,19 @@
       "sha256": "4ab61462043ed5f0996f1da181506a5cfe98b51a346f35e98ee2c73b363c9dd7"
     },
     {
+      "path": "风格提示词/X_code-video/X24_RPG 任务.jpg",
+      "bytes": 208451,
+      "sha256": "6cad9d2444bda0804440a94e9cdb4ceb71fa233c53fada095e2a9ae88d9d1c9a"
+    },
+    {
       "path": "风格提示词/X_code-video/X24_RPG 任务.md",
       "bytes": 4613,
       "sha256": "550d62f2d20108005683e481e37b270c28c5cd9835300db0d3cb97c2e9a4ca74"
+    },
+    {
+      "path": "风格提示词/X_code-video/X25_天气预报.jpg",
+      "bytes": 167969,
+      "sha256": "4aa82d6d528a41d3279f8aaa4fa4d6eb5480237ab57a608ba7e476309fa106bc"
     },
     {
       "path": "风格提示词/X_code-video/X25_天气预报.md",
@@ -2582,9 +3167,19 @@
       "sha256": "f3ccf054bb27ed1c4483f20b3bd47a034c1691b263b3f4747b49ef38cb2aec96"
     },
     {
+      "path": "风格提示词/X_code-video/X26_电视购物.jpg",
+      "bytes": 128154,
+      "sha256": "75bd0526107aa5c943270a3ab75e72916310c79a0a2b9da52c4609deca31fcd4"
+    },
+    {
       "path": "风格提示词/X_code-video/X26_电视购物.md",
       "bytes": 5818,
       "sha256": "18aa5ce046d6af220e7cb59d829e9dc2f6e2db18fafa9e55dd28e42769eb2c83"
+    },
+    {
+      "path": "风格提示词/X_code-video/X27_体育直播.jpg",
+      "bytes": 256971,
+      "sha256": "b544ce174aa08d7c19de185e64c3590ab787ff9830fcf1ebf1d21f6cb60b4e7f"
     },
     {
       "path": "风格提示词/X_code-video/X27_体育直播.md",
@@ -2592,9 +3187,19 @@
       "sha256": "83db0f738b274212c37c23df1a422c8a966c632b75b1b1fb4fb51b84636ca430"
     },
     {
+      "path": "风格提示词/X_code-video/X28_组装说明书.jpg",
+      "bytes": 241265,
+      "sha256": "30a17232fa6d45964d2541302e4fbcf1146e0b214a6bcc966409aa97ae0d6e96"
+    },
+    {
       "path": "风格提示词/X_code-video/X28_组装说明书.md",
       "bytes": 5062,
       "sha256": "3438f084302a0a2bab9b1525248198eef5f214a9919545a656d532eb55acac29"
+    },
+    {
+      "path": "风格提示词/X_code-video/X29_白板讲课.jpg",
+      "bytes": 106808,
+      "sha256": "286a13d193cedc29b27494e15da0d850904de1d65b73459841ac3626a0cdca05"
     },
     {
       "path": "风格提示词/X_code-video/X29_白板讲课.md",
@@ -2602,9 +3207,19 @@
       "sha256": "59799e69e0848dc7a689675a172afff55a2f1e974cfe14071308855a69c35561"
     },
     {
+      "path": "风格提示词/X_code-video/X2_品牌动态图形.jpg",
+      "bytes": 157950,
+      "sha256": "62ec89057506488db99500536a65ee2d690ff569d4189116605d61158478c0fb"
+    },
+    {
       "path": "风格提示词/X_code-video/X2_品牌动态图形.md",
       "bytes": 2001,
       "sha256": "d242541e35deb31bc7cf7bf0a62116687b5ab78fb134b64cbd7e49b2a9d184d7"
+    },
+    {
+      "path": "风格提示词/X_code-video/X30_电影预告片.jpg",
+      "bytes": 95209,
+      "sha256": "d887026e21238eee28aeb2068120772560928814f3e29e795989154913d13dc5"
     },
     {
       "path": "风格提示词/X_code-video/X30_电影预告片.md",
@@ -2612,9 +3227,19 @@
       "sha256": "dced129fc0ede1c6ae636e7d63900567060daaf0996ebbb8fa0c2257594a4cda"
     },
     {
+      "path": "风格提示词/X_code-video/X31_数学证明讲课.jpg",
+      "bytes": 110286,
+      "sha256": "4c0ec5735e6d0c7714c8042764af2b5c7dcd57271a55468a48ed5b44434d8ae8"
+    },
+    {
       "path": "风格提示词/X_code-video/X31_数学证明讲课.md",
       "bytes": 5068,
       "sha256": "42a959581c50dbf8b8af773c0c6fff749c92225af7a383b91ee21b95e667c3bf"
+    },
+    {
+      "path": "风格提示词/X_code-video/X3_沙画.jpg",
+      "bytes": 345186,
+      "sha256": "30b315854e41b8633ea05aa6c76f293d8775a4d3ff844853b52224b7c2773adc"
     },
     {
       "path": "风格提示词/X_code-video/X3_沙画.md",
@@ -2622,9 +3247,19 @@
       "sha256": "e9647469bf0b4a5111ff20200d20117bdcce2aa79eb21ed342997afa9715bc93"
     },
     {
+      "path": "风格提示词/X_code-video/X4_歌词 MV.jpg",
+      "bytes": 110733,
+      "sha256": "2ac059ae1b433185efd699ccaf4a911b9d30b94d553c4ad1d22d1b14316204cf"
+    },
+    {
       "path": "风格提示词/X_code-video/X4_歌词 MV.md",
       "bytes": 1966,
       "sha256": "4e1ff1814cafaa86e9963421e02fe704dd0dc5a950a3474ac34abdfc19b76ed8"
+    },
+    {
+      "path": "风格提示词/X_code-video/X5_卡点素材剪辑.jpg",
+      "bytes": 173856,
+      "sha256": "da496b57e9ddd650dab2c2bca2a559ddc8885b3c9fa623a42565ac70d6f85e44"
     },
     {
       "path": "风格提示词/X_code-video/X5_卡点素材剪辑.md",
@@ -2632,9 +3267,19 @@
       "sha256": "c628bb9e06f50472f72d94c41413b8e3203b714dddcefac3b4abad94f130faef"
     },
     {
+      "path": "风格提示词/X_code-video/X6_界面形变.jpg",
+      "bytes": 153237,
+      "sha256": "bdb757abdb22606c89efbd37e8a5bf87a32aa6f7b207acf7683340265199c9c4"
+    },
+    {
       "path": "风格提示词/X_code-video/X6_界面形变.md",
       "bytes": 1615,
       "sha256": "dc16f18f27a7bf0ad3cf46d9b24de732d3b94f753335155158eea0ba4bb95d4b"
+    },
+    {
+      "path": "风格提示词/X_code-video/X7_英雄漫画.jpg",
+      "bytes": 303184,
+      "sha256": "f0178e10bce94e2a8cda7c67e720643d5ec8c5b009a2bba8dd8947561654dc2c"
     },
     {
       "path": "风格提示词/X_code-video/X7_英雄漫画.md",
@@ -2642,9 +3287,19 @@
       "sha256": "1382744e1e1ef2911b60b3b1278b544b0250bcd3eec7d7a6f5f9e62984ed8f1c"
     },
     {
+      "path": "风格提示词/X_code-video/X8_手账剪贴本.jpg",
+      "bytes": 202852,
+      "sha256": "e0eb568063b0c1355031741c7461615c8b3ffebd8f1b3ff9c0a8e8ddf0b96d67"
+    },
+    {
       "path": "风格提示词/X_code-video/X8_手账剪贴本.md",
       "bytes": 1228,
       "sha256": "5aa1fee5214590c898614d884c35989f5ba95088484e61fc31edf8d2e4f8def6"
+    },
+    {
+      "path": "风格提示词/X_code-video/X9_撕纸拼贴.jpg",
+      "bytes": 266365,
+      "sha256": "8cab798dcf2f7100b513d69aafe55c6c1ff79ef9f56742b94fdd34eada958dac"
     },
     {
       "path": "风格提示词/X_code-video/X9_撕纸拼贴.md",
@@ -2652,9 +3307,19 @@
       "sha256": "1e4a931008ab8bdf6ddf6e3a4c9473f4d991ceb4d6b859e34a648e6604cdab50"
     },
     {
+      "path": "风格提示词/Z_中国风/Z10_木版画.jpg",
+      "bytes": 377275,
+      "sha256": "45c5b562b9d60f7c9c5659fe5dc0c25ad76f967518a1946e125d9e298e87e5c7"
+    },
+    {
       "path": "风格提示词/Z_中国风/Z10_木版画.md",
       "bytes": 171,
       "sha256": "221c125b8450bff173ddf42d8a5db8d729bfe1324cd18602ffda98c3f9404773"
+    },
+    {
+      "path": "风格提示词/Z_中国风/Z11_京剧脸谱.jpg",
+      "bytes": 330997,
+      "sha256": "405143b45f50be0eb9a65c884664ac4dfc69282d577104ae8ecaea8e42076005"
     },
     {
       "path": "风格提示词/Z_中国风/Z11_京剧脸谱.md",
@@ -2662,9 +3327,19 @@
       "sha256": "af489a9ba872a26adaf56d6dca0af0c6288e653ee9729af63997e4778a79e92d"
     },
     {
+      "path": "风格提示词/Z_中国风/Z12_书法.jpg",
+      "bytes": 227026,
+      "sha256": "f122f3984ea2c3e5b02684a7564d462282fa5672a9901b1872b433098f21de25"
+    },
+    {
       "path": "风格提示词/Z_中国风/Z12_书法.md",
       "bytes": 206,
       "sha256": "7ed601b7cd94bd8b12dc58b9e2818cf34a6bb7a98b5fdeaac54f6bdd5d1cccec"
+    },
+    {
+      "path": "风格提示词/Z_中国风/Z13_水墨漫画.jpg",
+      "bytes": 268508,
+      "sha256": "797deb3be4e390be93e5a44240ca5c91965586b627320217523ef3c4856aa114"
     },
     {
       "path": "风格提示词/Z_中国风/Z13_水墨漫画.md",
@@ -2672,9 +3347,19 @@
       "sha256": "aae45700b58b6e77d2bc7d17484bff3bb44dbbd733fabe0a4ae14296d38c3295"
     },
     {
+      "path": "风格提示词/Z_中国风/Z14_彩铅手绘.jpg",
+      "bytes": 350619,
+      "sha256": "61771bc1123cffbd29f344ba629604fb16160472abd34683ad9cf51aaa7e1a41"
+    },
+    {
       "path": "风格提示词/Z_中国风/Z14_彩铅手绘.md",
       "bytes": 220,
       "sha256": "69dca6c7841a0c605ff424e07316a58b14efdc5daf6899806844fcec7b388cd7"
+    },
+    {
+      "path": "风格提示词/Z_中国风/Z15_温暖水彩科普卡.jpg",
+      "bytes": 231065,
+      "sha256": "66a620980e4f81ca36e2a95174492eb00ac75e6871e0a32996f51780146a17f2"
     },
     {
       "path": "风格提示词/Z_中国风/Z15_温暖水彩科普卡.md",
@@ -2682,9 +3367,19 @@
       "sha256": "66b88cd9007f087d5a77365f689463d3ef452189681092983ca01004e4903f77"
     },
     {
+      "path": "风格提示词/Z_中国风/Z1_水墨.jpg",
+      "bytes": 237423,
+      "sha256": "56b6ebb07b06657d4bc439bf5a8cda2c70856484b6ecfcafc6f53341f627634f"
+    },
+    {
       "path": "风格提示词/Z_中国风/Z1_水墨.md",
       "bytes": 203,
       "sha256": "c68629e044322080de60c127a780e8d8a25b6abbcd0a235345520b77459831f1"
+    },
+    {
+      "path": "风格提示词/Z_中国风/Z2_工笔.jpg",
+      "bytes": 279615,
+      "sha256": "33c2ab09b7f90787950c19f0fbec5f7f1718898b7ab8732190d5309387b04b0c"
     },
     {
       "path": "风格提示词/Z_中国风/Z2_工笔.md",
@@ -2692,9 +3387,19 @@
       "sha256": "b230995799a6728e6d7698b6a85f20ebdb024beecccd9349af7239bb972747b7"
     },
     {
+      "path": "风格提示词/Z_中国风/Z3_写意.jpg",
+      "bytes": 248611,
+      "sha256": "23abe5dcbeb0501cbcd1ddc64f4692c9eae1a909f58585842a6b0aea932d3ca4"
+    },
+    {
       "path": "风格提示词/Z_中国风/Z3_写意.md",
       "bytes": 201,
       "sha256": "483bf8ef8b2fddd169f0bdb14def8faf25f9e37945a7361b179493b3db5bfbb7"
+    },
+    {
+      "path": "风格提示词/Z_中国风/Z4_山水.jpg",
+      "bytes": 233424,
+      "sha256": "108f6575ece6bbfe7f2c8fd87c4a5006781fa7cd252bc7fe1d3ee1650ce6307b"
     },
     {
       "path": "风格提示词/Z_中国风/Z4_山水.md",
@@ -2712,9 +3417,19 @@
       "sha256": "fc73b263bac6473bc07b0da40347ac38c53dd35cbde67fa2c1c84223211a6789"
     },
     {
+      "path": "风格提示词/Z_中国风/Z6_年画.jpg",
+      "bytes": 385930,
+      "sha256": "e1050c57367481e3ccad47d03aa6d63c623bc4ad2475936d344c14a238d1b3f6"
+    },
+    {
       "path": "风格提示词/Z_中国风/Z6_年画.md",
       "bytes": 197,
       "sha256": "39d2a4aba74bb3abf1de792661e9157f17505d8db01cdd8a5750f6b437ba8a96"
+    },
+    {
+      "path": "风格提示词/Z_中国风/Z7_皮影.jpg",
+      "bytes": 258396,
+      "sha256": "9de2ca6e5469a325ed8edc753038a5947869d76e16c3a5e2909c3d55e97cf65a"
     },
     {
       "path": "风格提示词/Z_中国风/Z7_皮影.md",
@@ -2722,9 +3437,19 @@
       "sha256": "4337ed3d97133c9e5d133c3f1c16aeecb0c0472c71c4dbc70547a4ed5e36dd0d"
     },
     {
+      "path": "风格提示词/Z_中国风/Z8_敦煌.jpg",
+      "bytes": 256049,
+      "sha256": "1593ce4297af55ec37e791852118352982ebd47c271a8b69ea7a563f469d3f98"
+    },
+    {
       "path": "风格提示词/Z_中国风/Z8_敦煌.md",
       "bytes": 189,
       "sha256": "db482af36f29bbe820ac52066949a1e7804ab242a897f29b1d736da14a161eb9"
+    },
+    {
+      "path": "风格提示词/Z_中国风/Z9_青花.jpg",
+      "bytes": 263731,
+      "sha256": "cc810e2f0d812103d52e3a2904615977ef7cc75859816aa8a0863c6727fd3089"
     },
     {
       "path": "风格提示词/Z_中国风/Z9_青花.md",

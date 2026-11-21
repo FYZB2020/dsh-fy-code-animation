@@ -44,7 +44,7 @@ check('同步技能与画风库', () => {
 check('catalog 可解析', () => {
   const c = styles.loadCatalog()
   if (c.total !== 341) throw new Error(`total=${c.total}`)
-  if (c.withStill !== 196) throw new Error(`with_still=${c.withStill}`)
+  if (c.withStill !== 341) throw new Error(`with_still=${c.withStill}`)
   return `${c.entries.length} entries`
 })
 

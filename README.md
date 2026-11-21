@@ -9,7 +9,7 @@ A DeepSeek Harness plugin. You keep the script; the agent writes HTML/Canvas ani
 ## Who this is for
 
 - You already write product posts, course trailers, data explainers or vertical short videos — and you are tired of dragging keyframes.
-- You want **motion graphics with taste**, not AI slop: the style library is 341 hand-curated prompts with 196 reference stills, each one a full Markdown brief you actually read before rendering.
+- You want **motion graphics with taste**, not AI slop: the style library is 341 hand-curated prompts with 341 reference stills, each one a full Markdown brief you actually read before rendering.
 - Your machine is ordinary. `8 GB VRAM` is not a requirement here — rendering is CPU + headless browser, and the plugin falls back to your installed Edge if Chromium will not download.
 - You want the output to be **editable**: every project is a folder with `index.html`, `task.json` and `notes.md`. Hand it to a human, a different agent, or `git diff` it.
 
@@ -19,7 +19,7 @@ A DeepSeek Harness plugin. You keep the script; the agent writes HTML/Canvas ani
 | --- | --- |
 | **Two skills** | `fy-code-animation` (10-step creation order, task-card contract, four delivery tiers) and `code-animation-prompts` (style library + renderer contract) |
 | **Six tools** | `codeanim_status` `codeanim_switch` `codeanim_setup` `codeanim_style` `codeanim_new` `codeanim_render` |
-| **341 styles** | 10 series, 196 of them with reference stills, plus an offline picker (`风格挑选.html`) that works without network |
+| **341 styles** | 10 series, all of them with a reference still, plus an offline picker (`风格挑选.html`) that works without network |
 | **Dependency installer** | Python 3.10+ probe → venv → Playwright + imageio-ffmpeg → Chromium (auto-fallback to Edge) → FFmpeg. Idempotent, logged, offline-capable |
 | **A panel** | Bottom-right floating switch: mode on/off, dependency status, style count, last render — polls every 4 s |
 | **Deterministic output** | `window.renderAt(t)` on an `<canvas>`; Playwright screenshots each frame, FFmpeg encodes with `libx264 + yuv420p + crf18 + faststart` |
@@ -46,7 +46,7 @@ Ask the agent to run `codeanim_setup`, or press the switch in the panel once. It
 ```
 env/            isolated venv (playwright + imageio-ffmpeg)
 tools/ffmpeg/   bundled ffmpeg binary
-style-library/  341 prompts + 196 stills
+style-library/  341 prompts + 341 stills
 projects/       your projects
 output/         finished MP4s
 logs/           setup.log / render.log
@@ -110,7 +110,7 @@ Details and preview behaviour: [docs/STYLE-LIBRARY.md](./docs/STYLE-LIBRARY.md) 
 ## Speed and limits (measured, not marketing)
 
 - 1080p30 ≈ **6–8 seconds of wall clock per second of video** on an ordinary desktop (12 s clip ≈ 73 s). 4K or 60 fps scales linearly.
-- 145 of the 341 styles have **no** reference still — text only. `codeanim_style show` tells you.
+- Every style now ships a reference still. Stills are style references, not a promise of final render quality.
 - Built-in audio generation: none. Pass `audio` to `codeanim_render` (`apad` pads silence, never loops).
 - Remotion branch is intentionally not enabled in v1; everything is HTML/Canvas + `render_video.py`.
 - The style library and both skills are third-party work — free to use and share, **not** to be resold as a paid course or paid skill. See [LICENSE.md](./LICENSE.md) and `style-library/第三方许可/`.

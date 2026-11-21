@@ -9,7 +9,7 @@
 | Asset | Size | Inside this plugin |
 | --- | --- | --- |
 | Style briefs | **341** Markdown files, 10 series | `style-library/风格提示词/` (14.2 MB, single copy) |
-| Reference stills | **196** jpg | same folder; `show` reports if a still exists |
+| Reference stills | **341** jpg | same folder; `show` reports if a still exists |
 | Offline picker | `风格挑选.html` | `codeanim_style({ action: "open_picker" })` |
 | Runnable sample | `starter/index.html` + 3 sample MP4s (60 MB) | only `index.html` kept; sample videos dropped |
 | Renderer | `render_video.py` (Playwright frames + FFmpeg) | copied to `~/.dsh/code-animation/bin/` with an Edge fallback |
@@ -52,7 +52,7 @@ The plugin solves the toolchain, not the content. In order of importance:
 ## 4. Known limits (read before you promise anything)
 
 - **B6 is not a library entry** — it exists only in upstream `示例/`, so it does not count as #342. Sample videos are not bundled.
-- **145 entries have no still** — text only; `show` marks `imageExists:false`. Do not plan on picking those by picture.
+- **Every entry has a still** — `show` reports `imageExists:true`. Stills guide style choice; they do not guarantee the final frame.
 - **L series (Lemo) misses dependency files** — `DEMO.md/paper.js/draw.js/sheet.js/film.js` are absent upstream, so `dependency_audit_complete` stays false. Use them as text-only styles.
 - **X7 is ambiguous** — one entry in the library, one in examples; always search by `id`.
 - **Licence** — free to use and share, **not** to resell as a paid course or paid skill; third-party styles keep their own licences (`style-library/第三方许可/`).

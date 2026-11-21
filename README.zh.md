@@ -54,7 +54,7 @@ dsh plugin add "N:\path\to\dsh-fy-code-animation"
 ```
 env/            独立 venv（playwright + imageio-ffmpeg）
 tools/ffmpeg/   自带 ffmpeg
-style-library/  341 条画风 + 196 张静帧
+style-library/  341 条画风 + 341 张静帧
 projects/       你的项目
 output/         成片
 logs/           setup.log / render.log

@@ -10,7 +10,7 @@
 | Rendering (frames) | Playwright + Chromium | ≈ 40 MB + 436 MB | installed by `codeanim_setup`; falls back to local Edge |
 | Encoding | FFmpeg | ≈ 80 MB | taken from `imageio-ffmpeg` into `tools/ffmpeg/bin` |
 
-The plugin itself is ~15.6 MB (341 styles + 196 stills + two skills). It does **not** bundle Python or a browser.
+The plugin itself is ~15.6 MB (341 styles + 341 stills + two skills). It does **not** bundle Python or a browser.
 
 ## What the automatic setup does
 

@@ -7,10 +7,10 @@ The plugin ships exactly **one** style library. At runtime it lives in `~/.dsh/c
 | File / folder | What it is |
 | --- | --- |
 | `风格提示词/` | 341 `.md` files — one complete prompt brief per style |
-| same folder | 196 `.jpg` reference stills, named after the matching `.md`; `show` reports `imageExists` |
+| same folder | 341 `.jpg` reference stills, named after the matching `.md`; `show` reports `imageExists` |
 | `风格挑选.html` | Offline picker: double-click, no network. Filter by series, search, zoom stills, read prompts, tick a selection, export the list |
 | `_manifest.json` | Index of all 341 entries (id, series, title, keywords, has-still, source) |
-| `_统计.json` | Counts: `{"total":341,"withStill":196,"bySeries":{...}}` |
+| `_统计.json` | Counts: `{"total":341,"withStill":341,"bySeries":{...}}` |
 | `说明.md` | Upstream usage notes and terms |
 | `第三方许可/` | Original licences and attributions per source |
 
