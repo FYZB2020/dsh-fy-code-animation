@@ -199,7 +199,7 @@ footer a { color: var(--muted); }
   var total = E.length, ours = count(function (e) { return metaOf[e.s].grp === 'ours'; }), nw = total - ours;
   var withImg = count(function (e) { return !!e.img; });
   var stats = document.getElementById('stats');
-  [[total, '个风格，总共', true], [ours, '个风格库（A–G、M、K、Z、H、L、V、X、R）'], [nw, '个奥斯卡最佳影片风格（O）'], [withImg, '个有静帧'], [total - withImg, '个只有文字']].forEach(function (s) {
+  [[total, '个风格，总共', true], [ours, '个风格库（A–G、M、K、Z、H、L、V、X、R）'], [nw, '个奥斯卡最佳影片风格（O）'], [withImg, '个有静帧']].forEach(function (s) {
     stats.appendChild(h('div', { class: 'stat' + (s[2] ? ' total' : '') }, h('b', { text: String(s[0]) }), h('span', { text: s[1] })));
   });
   document.getElementById('skillnote').textContent = '';
@@ -243,7 +243,7 @@ footer a { color: var(--muted); }
   function setCat(c) { state.cat = c; Object.keys(catBtns).forEach(function (k) { pressed(catBtns[k], k === c); }); apply(); }
   var imgBtns = {};
   var im = document.getElementById('f-img');
-  [['', '图：全部'], ['y', '只看有静帧'], ['n', '只看没图']].forEach(function (x) {
+  [['', '图：全部'], ['y', '只看有静帧']].forEach(function (x) {
     imgBtns[x[0]] = addChip(im, x[1], null, function () { state.img = x[0]; Object.keys(imgBtns).forEach(function (k) { pressed(imgBtns[k], k === x[0]); }); apply(); });
   });
   pressed(imgBtns[''], true);

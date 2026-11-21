@@ -1,6 +1,6 @@
 {
   "name": "dsh-fy-code-animation",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "private": false,
   "description": "Turn a Chinese script into a finished MP4 with code, not a video editor: 341 code-animation styles, frame-accurate HTML/Canvas rendering, one-command dependency setup. 开关一开，用代码把文案做成连贯动画视频：341 条画风库、逐帧可复现的 HTML/Canvas 渲染、依赖一条命令装齐。",
   "type": "module",
